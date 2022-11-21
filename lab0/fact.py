@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import time
 
 def factorial(a):
     if(a==0):
@@ -7,6 +8,7 @@ def factorial(a):
         return a
     else:
         return a*factorial(a-1)
+
 
 
 x= int(input())

@@ -13,9 +13,9 @@ def fracknapsack(profit, weights, capacity):
             break
     return res
 
-profits=[6,8,25,45,15]
-weight=[7, 8, 4, 5, 3]
-capacity=14
+profits=[69,87,15,35,15]
+weight=[9, 2, 6, 5, 3]
+capacity=15
  
 max_profit = fracknapsack(profits, weight, capacity)
 print('The maximum profits of items that can be carried:', max_profit)

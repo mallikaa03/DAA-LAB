@@ -44,7 +44,7 @@ def printarr(arr):
 
 
 if __name__ == '__main__':
-    array = [6, 8, 34, 87, 64, 98, 102]
+    array = [67, 83, 34, 56, 12, 89]
 
     mergesort(array)
 
